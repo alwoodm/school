@@ -1,14 +1,15 @@
 #Różnice języków scratch i python
-import time
-def pauza():
-    time.sleep(3)
+
+from time import sleep
+
 
 print("Dzień dobry")
-pauza
+sleep(3)
 print("Dziś uczymy się programowania")
-pauza
+sleep(3)
 print("Dzisiaj zobaczymy podobieństwa i różnice języka python i scratch")
-pauza
+sleep(3)
 print("")
 print("Podobieństwa: Są to języky iterpretacyjne nie kompilowane, wmiare niski poziom zaawansowania")
 print()
+input("Naciśnij Enter aby zakończyć program")
